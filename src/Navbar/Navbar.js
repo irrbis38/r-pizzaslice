@@ -5,6 +5,7 @@ import { PizzaIcon } from "./PizzaIcon";
 
 const NavbarStyled = styled.div`
     position: fixed;
+    z-index: 999;
     width: 100%;
     padding: 10px;
     background-color: ${pizzaRed};
