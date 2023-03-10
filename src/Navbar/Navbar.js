@@ -4,8 +4,10 @@ import { Title } from "./../Styles/title";
 import { PizzaIcon } from "./PizzaIcon";
 
 const NavbarStyled = styled.div`
-    background-color: ${pizzaRed};
+    position: fixed;
+    width: 100%;
     padding: 10px;
+    background-color: ${pizzaRed};
 `;
 
 const Logo = styled(Title)`

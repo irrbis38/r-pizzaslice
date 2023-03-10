@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { Banner } from "./Banner/Banner";
 import { Navbar } from "./Navbar/Navbar";
 
 const GlobalStyle = createGlobalStyle`
@@ -18,6 +19,7 @@ export const App = () => {
         <>
             <GlobalStyle />
             <Navbar />
+            <Banner />
             <div>Hello</div>
         </>
     );

@@ -6,7 +6,7 @@ export const PizzaIcon = () => {
             viewBox="0 0 124 133"
             width="124"
             xmlns="http://www.w3.org/2000/svg"
-            style={{ width: "30px", height: "auto" }}
+            style={{ width: "30px", height: "auto", marginLeft: "10px" }}
         >
             <g clipPath="url(#clip0)">
                 <path
